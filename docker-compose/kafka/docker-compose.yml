@@ -3,7 +3,7 @@ services:
   kafka-kraft-1:
     image: confluentinc/cp-kafka:7.1.0
     hostname: broker
-    container_name: broker
+    container_name: kafka-kraft
     ports:
       - "9092:9092"
       - "9101:9101"
