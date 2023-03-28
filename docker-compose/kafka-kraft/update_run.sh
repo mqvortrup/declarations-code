@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Docker workaround: Remove check for KAFKA_ZOOKEEPER_CONNECT parameter
 sed -i '/KAFKA_ZOOKEEPER_CONNECT/d' /etc/confluent/docker/configure

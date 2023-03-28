@@ -18,6 +18,7 @@ import work.qvortrup.declarations.core.entity.DeclarationEnvelope
     "work.qvortrup.declarations.core.entity",
     "work.qvortrup.declarations.core.service",
     "work.qvortrup.declarations.core.usecase.declare",
+    "work.qvortrup.declarations.application.spring.common.kafka",
 ])
 class Customs(val declarationProcessor: DeclarationProcessor) {
 

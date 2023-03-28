@@ -36,4 +36,4 @@ out/
 ### VS Code ###
 .vscode/
 !/docker-compose/cassandra/data/
-!/docker-compose/kafka/data/
+!/docker-compose/kafka-kraft/data/
